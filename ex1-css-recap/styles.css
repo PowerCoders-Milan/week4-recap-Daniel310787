@@ -1,0 +1,214 @@
+/* this is the index of the pages*/
+.banner{
+    background-image: url(images/ecom-bnr.jpg.crdownload);
+    height: 100vh;
+    margin-top: 0em;
+}
+.banner h1{
+    font-size: 75px;
+    text-align: center;
+    align-self: center;
+    margin-top: 0em;
+    padding-top: 2.5em;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+}
+.banner span{
+    color: orange;
+}
+.banner h2{
+    color: white;
+    text-align: center;
+    align-self: center;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+    padding-bottom: 1.5em;
+}
+.btnmain{
+    position: relative;
+    left: 26em;
+    padding: 15px 25px;
+    font-size: 25px;
+    background-color: orange;
+    border-radius: 10px;
+}
+.btnmain a{
+    text-decoration: none;
+    color: white;
+}
+.btnmain:hover{
+    background-color: rgb(148, 105, 25);
+}
+/* this is the product list of the pages*/
+.product-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .6fr 1fr 1fr;
+    grid-template-areas: 
+    "mainh1 mainh1 mainh1 mainh1"
+    "pdc1 pdc2 pdc3 pdc4"
+    "pdc5 pdc6 pdc7 pdc8"
+    ;
+}
+.pdc1{
+    grid-area: pdc1;
+}
+.pdc2{
+    grid-area: pdc2;
+}
+.pdc3{
+    grid-area: pdc3;
+}
+.pdc4{
+    grid-area: pdc4;
+}
+.pdc5{
+    grid-area: pdc5;
+}
+.pdc6{
+    grid-area: pdc6;
+}
+.pdc7{
+    grid-area: pdc7;
+}
+.pdc8{
+    grid-area: pdc8;
+}
+figure{
+    background-color: white;
+    border-radius: 10px;
+}
+figure img{
+    width: 200px;
+    height: 200px;
+    padding-left: 3em;
+}
+.mainh1{
+    grid-area: mainh1;
+}
+.mainh1 a{
+    text-decoration: none;
+}
+.mainh1 h1{
+    font-size: 75px;
+    margin-top: .3em;
+    text-shadow: 2px 2px 2px black;
+    color: black;
+    margin-left: 1em;  
+}
+.mainh1 span{
+    color: orange;
+}
+.btnlist{
+    position: relative;
+    margin-top: 1em;
+    margin-left: 5em;
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: orange;
+    border-radius: 10px;
+}
+.btnlist a{
+    text-decoration: none;
+    color: white;
+}
+.btnlist:hover{
+    background-color: rgb(148, 105, 25);
+}
+/* this is the product view of the pages*/
+.product-view h1{
+    font-size: 75px;
+    margin-top: .5em;
+    text-shadow: 2px 2px 2px black;
+    color: black;
+    margin-left: .5em;  
+}
+.product-view a{
+    text-decoration: none;
+}
+.product-view span{
+    color: orange;
+}
+.product-view img{
+    float:left;
+    margin-left: 3em;
+    border-radius: 10px;
+    width: 420px;
+    height: 500px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
+}
+#backbtn{
+    margin-left: 22em;
+    top: -1.8em;
+    border-radius: 10px;
+    background-color: lightgrey;
+    padding: 10px 20px;
+    font-size: 36px;
+    border: none;
+    position: relative;
+}
+#backbtn a{
+    color: white;
+    text-decoration: none;
+}
+#backbtn:hover{
+    background-color: black;
+}
+.product-view p{
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 7em;
+    margin-left: 16em;
+}
+.description{
+    margin-right: 7em;
+    margin-left: 10em;
+}
+.description h1{
+    margin-left: 5em;
+    margin-top: -.8em;
+    position: relative;
+}
+#buybtn{
+    border-radius: 10px;
+    padding: 15px 40px;
+    font-size: 30px;
+    margin-left: 3em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    background-color: orange;
+    border: none;
+}
+#buybtn a{
+    text-decoration: none;
+    color: white;
+}
+.others{
+    display: flex;
+    margin-top: 2em;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+
+}
+.others h3{
+    margin-left: 2em;
+    text-align: center;
+    font-size: 25px;
+}
+.box1{
+    background-color: blue;
+    border-radius: 10px;
+    padding: 25px 10px;
+}
+.box2{
+    background-color: salmon;
+    border-radius: 10px;
+    padding: 25px 10px;
+}
+.others h4{
+    font-size: 20px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    text-align: center;
+}
