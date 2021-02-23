@@ -1,6 +1,6 @@
 # Acronym
 
-Create a program that takes a text and makes a 3-letter left shift in the alphabet:
+Create a program that ta 3-letteakes a text and makes r left shift in the alphabet:
 
 D --> A
 

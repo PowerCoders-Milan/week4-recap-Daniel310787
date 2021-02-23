@@ -45,7 +45,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: .6fr 1fr 1fr;
     grid-template-areas: 
-    "mainh1 mainh1 mainh1 mainh1"
+    "mainh1 mainh1 nothing  nothing"
     "pdc1 pdc2 pdc3 pdc4"
     "pdc5 pdc6 pdc7 pdc8"
     ;
@@ -205,6 +205,7 @@ figure img{
     background-color: salmon;
     border-radius: 10px;
     padding: 25px 10px;
+
 }
 .others h4{
     font-size: 20px;
